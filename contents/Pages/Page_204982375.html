@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<script type="text/javascript" src="../template/js/jquery/jquery.js"></script>
+<script type="text/javascript" src="../template/js/common/manualLib.js"></script>
+<script type="text/javascript" src="../tocData.js"></script>
+<link rel="stylesheet" type="text/css" href="../template/css/template.css" />
+<title>2 NDI Installation and Configuration</title>
+</head>
+<body data-reassemble="autoindex=no,forceNoLabel=yes">
+<div id="autoindex_content">
+<div class="body_content">
+<noscript>
+<div style="border: 4px double black; margin: 4px; padding: 2px; font-weight: bold; background-color: #FFFFCC;">
+<p>Some features in this documentation are unavailable because JavaScript is not enabled in your browser. The table of contents is available only if JavaScript is enabled. Enable JavaScript and reload this page.</p>
+</div>
+</noscript>
+<div class="page_navigation_top">
+<table class="page_navi_root">
+<tr>
+<td class="page_navi_left"></td>
+<td class="page_navi_right"></td>
+</tr>
+</table>
+</div>
+<div class="breadcrumb"></div>
+
+<!-- 2 NDI Installation and Configuration -->
+<div class="pagetitle" id="PageId_204982375">2 NDI Installation and Configuration</div>
+<div class="text_separate">
+<h1 id="Anchor_204982375_h1_1">Installation</h1>
+<p>The NDI installer is available for download from the Nintendo Developer Portal Downloads page. After downloading the installer, run the included setup executable and follow the on-screen instructions to install NDI.</p>
+<div class="note_new">
+  <div class="note_new_left">Note</div>
+  <div class="note_new_right">
+    <p>While upgrading to a newer version of NDI is possible, it is not possible to downgrade to a previous version without uninstalling NDI completely.</p>
+  </div>
+</div>
+<p>
+  <img src="../Attachments/Attach_204982375/241554470.png" width="500" />
+</p>
+<h1 id="Anchor_204982375_h1_2">Settings</h1>
+<p class="p">When the application starts, you are presented with the NDI splash-screen and the&nbsp;<strong class="ph b">Welcome</strong>&nbsp;screen.</p>
+<p class="p">The&nbsp;<strong class="ph b">Welcome</strong>&nbsp;screen displays the tools that you can interact with to assist in development. However, it is recommended that you first access the Settings menu and configure the application for your needs.</p>
+<div class="info_new">
+  <div class="info_new_left">Info</div>
+  <div class="info_new_right">
+    <p>The first time you run NDI, you&nbsp;are automatically taken to the settings screen as you progress through the application.</p>
+  </div>
+</div>
+<p class="p">To access the Settings menu, click the gear icon in the upper right of the window.</p>
+<p>
+  <img src="../Attachments/Attach_204982375/241554478.png" />
+</p>
+<p class="p">&nbsp;</p>
+<p class="p">This&nbsp;list contains four options:</p>
+<ul class="ul">
+  <li class="li">
+    <strong class="ph b">Settings:</strong>&nbsp;Opens the settings menu.</li>
+  <li class="li">
+    <strong>Documentation:&nbsp;</strong>Opens the directory where the NDI documentation is located.</li>
+  <li class="li">
+    <strong class="ph b">About:</strong>&nbsp;Displays information about NDI and contact information.</li>
+  <li class="li">
+    <strong class="ph b">Sign In / Sign Out:</strong>&nbsp;On first run, displays as <strong>Sign In</strong> and allows you to log in to the Nintendo Developer Portal with a Nintendo Developer ID. After a sign in has occurred, it changes to <strong>Sign Out</strong>. When <strong>Sign Out</strong> is selected, you are disconnected from the Nintendo Developer Portal.</li>
+</ul>
+<p class="p">Click&nbsp;<strong>Settings</strong>&nbsp;to open a window with the following tabs.</p>
+<h2 id="Anchor_204982375_h2_1">Application Tab</h2>
+<p>
+  <img src="../Attachments/Attach_204982375/241554472.png" width="500" />
+</p>
+<p class="p">The Application tab allows you to configure elements of NDI. The options are as follows.</p>
+<ul class="ul">
+  <li class="li">
+    <strong class="ph b">User interface language:</strong>&nbsp;Changes the display language of NDI.</li>
+  <li class="li">
+    <strong>Send app usage data to Nintendo:</strong>&nbsp;If enabled, usage data&nbsp;is reported to Nintendo to allow the support and improvement of NDI. The Nintendo Privacy Notice link opens a page&nbsp;that provides&nbsp;further details.</li>
+  <li class="li">
+    <strong class="ph b">Enable network proxy server authentication:</strong>&nbsp;If enabled, when authentication with a proxy server is required, NDI saves the required information for future authentications. When NDI is&nbsp;started for the first time, this option&nbsp;is selected.</li>
+  <li class="li">
+    <strong class="ph b">Enable unsafe package selection:</strong>&nbsp;If enabled,<strong class="ph b">&nbsp;</strong>you&nbsp;are able to select packages that are not suitable or compatible with other selected packages when creating and updating environments. Unsafe package selection is&nbsp;occasionally used for specific high-risk installation scenarios. An unsafe selection may lead to unstable environments or data, it is not recommended to select this option.</li>
+  <li class="li">
+    <strong class="ph b">Prompt before closing application:</strong>&nbsp;If enabled, a message displays on exiting the program&nbsp;that confirms the closing action.</li>
+  <li class="li">
+    <strong>Keep application running in system tray:</strong>&nbsp;If enabled, when NDI is closed using the <strong>close</strong> button in the upper right corner of the application window, the application minimizes to the system tray. &nbsp;</li>
+  <li class="li">
+    <strong class="ph b">Manifest language:</strong>&nbsp;Software package descriptions&nbsp;are displayed in the selected language, if available.</li>
+</ul>
+<h2 id="Anchor_204982375_h2_2">Dev Environments Tab</h2>
+<p>
+  <img src="../Attachments/Attach_204982375/241554476.png" width="500" />
+</p>
+<p class="p">The Dev Environments tab allows you to configure how environments&nbsp;are installed through NDI. The options are as follows.</p>
+<ul class="ul">
+  <li class="li">
+    <strong class="ph b">Cache Location:</strong>&nbsp;The directory where files downloaded by the client&nbsp;are located.</li>
+  <li class="li">
+    <strong>Current cache size:&nbsp;</strong>Displays the total size of all files in the current&nbsp;<strong>Cache Location</strong>.</li>
+  <li class="li">
+    <strong>Limit cache size:&nbsp;</strong>If enabled, NDI controls the maximum amount of data that can be in the NDI cache. The slider to the right of the option determines the maximum size of the cache. Each time NDI is started while this option is enabled, files are removed from the cache until the total size of all files in the cache is below the selected value. Files&nbsp;are removed from oldest to newest.</li>
+  <li class="li">
+    <strong class="ph b">Keep locally cached files:</strong>&nbsp;If enabled, files that are downloaded remain in the cache after NDI is closed.<strong class="ph b"><br /></strong></li>
+  <li class="li">
+    <strong class="ph b">View Cache:</strong>&nbsp;Opens the directory specified by&nbsp;<strong class="ph b">Cache Location</strong>.</li>
+  <li class="li">
+    <strong class="ph b">Copy latest manifest to cache:</strong>&nbsp;Creates a copy of the current manifest file&nbsp;in the current cache location.</li>
+</ul>
+<p class="p">The purpose of the cache is to save files after download so that they can be used to create environments at a later time. The cache location may be changed to another disk drive or partition that may have more storage space, separate from the location of installed files or environments.</p>
+<h2 id="Anchor_204982375_h2_3">Components Tab</h2>
+<p>
+  <img src="../Attachments/Attach_204982375/241554474.png" width="500" />
+</p>
+<p>The Components tab contains a list of NDI modules that are available on the currently connected server, and any modules that have previously been installed. Installed modules provide additional features to NDI, based on the individual module selected. To make selections, install, or reinstall these modules, select the appropriate option from the drop-down&nbsp;list box&nbsp;on the right and select <strong>Execute updates</strong>. In most cases, you should restart NDI after completing this process.</p>
+<div class="note_new">
+  <div class="note_new_left">Note</div>
+  <div class="note_new_right">
+    <p>The Components tab is only accessible when the Settings menu is opened from the Welcome screen.</p>
+  </div>
+</div>
+<h3 id="Anchor_204982375_h3_1">Required Components</h3>
+<p>Some components allow NDI to function correctly or provide additional features to the application. These required components&nbsp;are downloaded automatically when connected to the server and&nbsp;are indicated when they are installed. Required components are displayed on the Components tab, but can not be uninstalled.</p>
+<h1 id="Anchor_204982375_h1_3">Saving</h1>
+<p class="p">After&nbsp;you have confirmed your settings, click the&nbsp;<strong class="ph b">Save</strong>&nbsp;button in the lower right to return to the main application. To make changes to your settings, you can return to the Settings menu on any screen where the gear icon is blue.</p>
+<p>You can now&nbsp;begin using the Nintendo Dev Interface.</p>
+</div>
+<div class="breadcrumb_bottom"></div>
+<div class="page_navigation">
+<table class="page_navi_root">
+<tr>
+<td class="page_navi_left"></td>
+<td class="page_navi_right"></td>
+</tr>
+<tr><td colspan="2" class="page_navi_bottom"></td></tr>
+</table>
+</div>
+<p>&nbsp;</p>
+<hr />
+<p>CONFIDENTIAL</p>
+</div>
+</div>
+</body>
+</html>

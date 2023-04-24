@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<script type="text/javascript" src="../template/js/jquery/jquery.js"></script>
+<script type="text/javascript" src="../template/js/common/manualLib.js"></script>
+<script type="text/javascript" src="../tocData.js"></script>
+<link rel="stylesheet" type="text/css" href="../template/css/template.css" />
+<title>5 Glossary</title>
+</head>
+<body data-reassemble="autoindex=no,forceNoLabel=yes">
+<div id="autoindex_content">
+<div class="body_content">
+<noscript>
+<div style="border: 4px double black; margin: 4px; padding: 2px; font-weight: bold; background-color: #FFFFCC;">
+<p>Some features in this documentation are unavailable because JavaScript is not enabled in your browser. The table of contents is available only if JavaScript is enabled. Enable JavaScript and reload this page.</p>
+</div>
+</noscript>
+<div class="page_navigation_top">
+<table class="page_navi_root">
+<tr>
+<td class="page_navi_left"></td>
+<td class="page_navi_right"></td>
+</tr>
+</table>
+</div>
+<div class="breadcrumb"></div>
+
+<!-- 5 Glossary -->
+<div class="pagetitle" id="PageId_204982498">5 Glossary</div>
+<div class="text_separate">
+<div class="body">
+  <p class="p">When using Nintendo Dev Interface, familiarize yourself&nbsp;with the following terms.</p>
+  <h2 id="Anchor_204982498_h2_1">Bundle</h2>
+  <p>A <em>bundle</em> is a collection of packages that, for ease of installation, can be selected at the same time. These&nbsp;collections often represent software packages applicable to different development team roles, such as&nbsp;Software Developer, Artist, or Tester. They may also be software packages that have interdependent&nbsp;features that function best when installed together.</p>
+  <h2 id="Anchor_204982498_h2_2">Component</h2>
+  <p>A <em>component</em> is a software package that is used by NDI to provide additional functionality for the application.&nbsp;Components&nbsp;take two forms: Required Components, which are automatically downloaded and installed when connecting to a server, and Optional Components, which can be installed through the Components tab of the settings window.&nbsp;</p>
+  <h2 id="Anchor_204982498_h2_3">Environment</h2>
+  <p>An <em>environment</em> refers to a specific installation of software and the folder that it resides in. Each environment is independent of other environments. That is, the operations&nbsp;performed on one environment do not affect other environments. The number of environments you can have is mainly limited by the amount of hard disk space available. Environments must be unique only in name; they do not have to be unique in their contents. Therefore, you can have multiple environments installed (each with the same SDK and other set of software).&nbsp;After an environment is created, you cannot remove&nbsp;items from it. You can, however, update its internal software and add new software that you may have skipped during the initial installation.</p>
+  <h2 id="Anchor_204982498_h2_4">Family</h2>
+  <div class="section">
+    <p class="title sectiontitle">A <em>family</em> is a container that holds specifically-purposed software; similar to a container for a concept.</p>
+    <p>For example, the Wii U platform contains families representing the following concepts:</p>
+    <div class="p">
+      <div class="tablenoborder">
+        <p>&nbsp;</p>
+        <table class="table">
+          <thead>
+            <tr style="margin-left: 60.0px;">
+              <th>Concept</th>
+              <th>Family Name</th>
+            </tr>
+          </thead>
+          <tbody style="margin-left: 120.0px;">
+            <tr style="margin-left: 120.0px;">
+              <td>C / C++ Software Development Kit for Wii U</td>
+              <td>Cafe SDK</td>
+            </tr>
+            <tr style="margin-left: 120.0px;">
+              <td>CPU Profiler</td>
+              <td>Wii U CPU Profiler</td>
+            </tr>
+            <tr style="margin-left: 120.0px;">
+              <td>Device driver for PC &lt;-&gt; CAT-DEV communication</td>
+              <td>HostBridge</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+    <p class="p">Within a family, there may be one or more &quot;releases&quot;. For information on releases, see below.</p>
+    <h2 id="Anchor_204982498_h2_5">Foundation</h2>
+    <p class="p">A release that can be the core package for an environment. This package determines which packages are available for installation.</p>
+    <h2 id="Anchor_204982498_h2_6">Global Package</h2>
+  </div>
+  <div class="section">
+    <p class="p">A release that can only be installed one time&nbsp;per machine. Examples: Unity, HostBridge,&nbsp;Havok.</p>
+    <h2 id="Anchor_204982498_h2_7">Manifest</h2>
+  </div>
+  <div class="section">
+    <p class="p">The file from the current server that indicates&nbsp;the data that you have access to.</p>
+    <h2 id="Anchor_204982498_h2_8">MegaZarf</h2>
+  </div>
+  <div class="section">
+    <p class="p">A file containing the information needed to recreate a specific environment. Depending on how the file was created, it may additionally contain the data required to create the environment without requiring you to connect to a server.</p>
+    <h2 id="Anchor_204982498_h2_9">Package</h2>
+  </div>
+  <div class="section">
+    <p class="p">A release that can be installed multiple times on a single machine, but one time&nbsp;per environment. Examples: NintendoSDK, VoiceChat, NEX.</p>
+    <h2 id="Anchor_204982498_h2_10">Release</h2>
+  </div>
+  <div class="section">
+    <p class="p">A <em>release</em> refers to a specific variant of software within a family. Each release is associated with a particular version number or release date, language or locale (for example, the documentation in the release, the text emitted by the tools or program, etc), target operating region (US, EU, JP, etc), and other such attributes. For example, the NintendoSDK 1.0.0 (English) would be a release in the NintendoSDK family, while the NintendoSDK 1.0.0 (Japanese) would be a separate release.</p>
+    <h2 id="Anchor_204982498_h2_11">Rollback</h2>
+  </div>
+  <div class="section">
+    <p class="p">A <em>rollback</em> operation can be performed on specific packages (usually NintendoSDK and related packages) and reverts the last update to the package, returning to the the previous state that the package was in. If multiple updates have been made to an individual package, you will be able to rollback the package until it reverts to the original installation. Because changes made to these packages are recorded when updating, performing a rollback restores all of these changes, allowing you to safely determine if updating the packages will negatively affect your development environment.</p>
+  </div>
+</div>
+</div>
+<div class="breadcrumb_bottom"></div>
+<div class="page_navigation">
+<table class="page_navi_root">
+<tr>
+<td class="page_navi_left"></td>
+<td class="page_navi_right"></td>
+</tr>
+<tr><td colspan="2" class="page_navi_bottom"></td></tr>
+</table>
+</div>
+<p>&nbsp;</p>
+<hr />
+<p>CONFIDENTIAL</p>
+</div>
+</div>
+</body>
+</html>
